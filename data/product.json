@@ -1,0 +1,1717 @@
+[
+  {
+    "id": 1,
+    "name": "Premium Cashmere Hoodie",
+    "category": "Tops",
+    "Section": "Apparel",
+    "price": 300000,
+    "discountedPrice": 250000,
+    "image": "images/hoodie/polos-hitam.jpeg",
+    "images": {
+      "Black": "images/hoodie/polos-hitam.jpeg",
+      "Charcoal": "images/hoodie/polos-charcoal.jpeg",
+      "Camel": "images/hoodie/polos-camel.jpeg"
+    },
+    "colors": ["Black", "Charcoal", "Camel"],
+    "sizes": ["S", "M", "L", "XL"],
+    "description": "Ultra-soft cashmere blend hoodie with premium stitching and a relaxed fit. Features a kangaroo pocket and adjustable drawstring hood.",
+    "material": "80% Cashmere, 20% Cotton",
+    "rating": 4.8,
+    "reviews": 124,
+    "inStock": true
+  },
+  {
+    "id": 2,
+    "name": "Silk Crawneck Sweater",
+    "category": "Tops",
+    "Section": "Apparel", 
+    "price": 350000,
+    "discountedPrice": 300000,
+    "image": "images/crawneck/silk1.jpeg",
+    "images": {
+      "Ivory": "images/crawneck/silk1.jpeg",
+      "Burgundy": "images/crawneck/silk-burgundy.jpeg",
+      "Navy": "images/crawneck/silk-navy.jpeg"
+    },
+    "colors": ["Navy", "Burgundy", "Ivory"],
+    "sizes": ["S", "M", "L"],
+    "description": "Luxurious silk-blend crawneck sweater with a refined texture. Perfect for layering or wearing alone for a sophisticated look.",
+    "material": "70% Silk, 30% Merino Wool",
+    "rating": 4.7,
+    "reviews": 89,
+    "inStock": true
+  },
+  {
+    "id": 3,
+    "name": "Signature Cotton T-Shirt",
+    "category": "Tops",
+    "Section": "Apparel",
+    "price": 160000,
+    "image": "images/t-shirt/kota1.jpeg",
+    "images": {
+      "Tokyo1": "images/t-shirt/kota1.jpeg",
+      "Tokyo2": "images/t-shirt/kota2.jpeg",
+      "Tokyo3": "images/t-shirt/kota8.jpeg",
+      "Nyc1": "images/t-shirt/kota3.jpeg",
+      "Nyc2": "images/t-shirt/kota4.jpeg",
+      "Nyc3": "images/t-shirt/kota5.jpeg",
+      "vegas1": "images/t-shirt/kota6.jpeg",
+      "vegas2": "images/t-shirt/kota7.jpeg"
+    },
+    "colors": [
+      "Tokyo1",
+      "Tokyo2",
+      "Tokyo3",
+      "Nyc1",
+      "Nyc2",
+      "Nyc3",
+      "Vegas1",
+      "vegas2"
+    ],
+    "sizes": ["XS", "S", "M", "L", "XL"],
+    "description": "Premium heavyweight cotton t-shirt with double-stitched seams and reinforced collar for exceptional durability.",
+    "material": "100% Organic Cotton",
+    "rating": 4.6,
+    "reviews": 215,
+    "inStock": true
+  },
+  {
+    "id": 4,
+    "name": "Linen Long Shirt",
+    "category": "Tops",
+    "Section": "Apparel",
+    "price": 220000,
+    "discountedPrice": 200000,
+    "image": "images/long-shirt/linen1.jpeg",
+    "images": {
+      "Beige": "images/long-shirt/linen1.jpeg",
+      "Light Blue": "images/long-shirt/linen-blue.jpeg",
+      "Olive": "images/long-shirt/linen-olive.jpeg"
+    },
+    "colors": ["Beige", "Light Blue", "Olive"],
+    "sizes": ["S", "M", "L", "XL"],
+    "description": "Breathable linen long shirt with mother-of-pearl buttons and tailored fit. Perfect for both casual and formal occasions.",
+    "material": "100% Premium Linen",
+    "rating": 4.5,
+    "reviews": 67,
+    "inStock": true
+  },
+  {
+    "id": 5,
+    "name": "Long Pants Slim Fit",
+    "category": "Bottoms",
+    "Section": "Apparel",
+    "price": 400000,
+    "image": "images/longpants/slimfit2.jpeg",
+    "images": {
+      "Navy": "images/longpants/slimfit2.jpeg",
+      "Gray": "images/longpants/slimfit-gray.jpeg",
+      "Black": "images/longpants/slimfit-black.jpeg"
+    },
+    "colors": ["Navy", "Gray", "Black"],
+    "sizes": ["28", "30", "32", "34", "36"],
+    "description": "Classic tailored wool pants with a modern slim fit. Features reinforced seams and a comfortable elastic waistband.",
+    "material": "100% Merino Wool",
+    "rating": 4.9,
+    "reviews": 142,
+    "inStock": true
+  },
+  {
+    "id": 6,
+    "name": "Leather Oxford Shoes",
+    "category": "Dress Shoes",
+    "Section": "Footwear",
+    "price": 625000,
+    "discountedPrice": 550000,
+    "image": "images/shoes/handcraft1.jpeg",
+    "images": {
+      "Brown": "images/shoes/handcraft1.jpeg",
+      "Black": "images/shoes/handcraft-black.jpeg"
+    },
+    "colors": ["Brown", "Black"],
+    "sizes": ["39", "40", "41", "42", "43", "44"],
+    "description": "Handcrafted full-grain leather oxford shoes with cushioned insoles and durable rubber soles. Goodyear welt construction.",
+    "material": "100% Genuine Leather",
+    "rating": 4.9,
+    "reviews": 203,
+    "inStock": true
+  },
+  {
+    "id": 7,
+    "name": "Cashmere Beanie Hat",
+    "category": "Beanies",
+    "Section": "Headwear",
+    "price": 150000,
+    "image": "images/hat/beanie2.jpeg",
+    "images": {
+      "Charcoal": "images/hat/beanie2.jpeg",
+      "white": "images/hat/beanie-white.jpg",
+      "Camel": "images/hat/beanie-camel.jpeg",
+      "Navy": "images/hat/beanie-navy.jpeg"
+    },
+    "colors": ["Charcoal", "Camel", "Navy", "White"],
+    "sizes": ["One Size"],
+    "description": "Ultra-soft cashmere beanie with a folded cuff design. Provides warmth without bulk for a sleek winter look.",
+    "material": "100% Cashmere",
+    "rating": 4.7,
+    "reviews": 178,
+    "inStock": true
+  },
+  {
+    "id": 8,
+    "name": "Performance Hoodie",
+    "category": "Outerwear",
+    "Section": "Apparel",
+    "price": 450000,
+    "image": "images/hoodie/tech1.jpeg",
+    "images": {
+      "Dark Green": "images/hoodie/tech1.jpeg",
+      "Slate": "images/hoodie/tech-slate.jpeg",
+      "Maroon": "images/hoodie/tech-maroon.jpeg"
+    },
+    "colors": ["Dark Green", "Slate", "Maroon"],
+    "sizes": ["S", "M", "L", "XL"],
+    "description": "Technical performance hoodie with moisture-wicking fabric and strategic ventilation panels. Ideal for active lifestyles.",
+    "material": "85% Polyester, 15% Spandex",
+    "rating": 4.6,
+    "reviews": 92,
+    "inStock": true
+  },
+  {
+    "id": 9,
+    "name": "Merino Wool Crawneck",
+    "category": "Tops",
+    "Section": "Apparel",
+    "price": 400000,
+    "discountedPrice": 370000,
+    "image": "images/crawneck/merino1.jpeg",
+    "images": {
+      "Heather Gray": "images/crawneck/merino1.jpeg",
+      "Navy": "images/crawneck/merino-navy.jpeg",
+      "Burgundy": "images/crawneck/merino-burgundy.jpeg"
+    },
+    "colors": ["Heather Gray", "Navy", "Burgundy"],
+    "sizes": ["S", "M", "L", "XL"],
+    "description": "Fine-gauge merino wool crawneck with a body-hugging fit. Naturally temperature-regulating and odor-resistant.",
+    "material": "100% Merino Wool",
+    "rating": 4.8,
+    "reviews": 156,
+    "inStock": true
+  },
+  {
+    "id": 10,
+    "name": "Vintage Wash T-Shirt",
+    "category": "Tops",
+    "Section": "Apparel",
+    "price": 200000,
+    "image": "images/t-shirt/vintage1.jpeg",
+    "images": {
+      "Vintage Black": "images/t-shirt/vintage1.jpeg",
+      "Vintage White": "images/t-shirt/vintage-white.jpeg",
+      "Vintage Red": "images/t-shirt/vintage-red.jpeg"
+    },
+    "colors": ["Vintage Black", "Vintage White", "Vintage Red"],
+    "sizes": ["S", "M", "L", "XL"],
+    "description": "Artfully distressed vintage wash t-shirt with a soft, broken-in feel. Features a slightly oversized fit for comfort.",
+    "material": "100% Combed Cotton",
+    "rating": 4.5,
+    "reviews": 84,
+    "inStock": true
+  },
+  {
+    "id": 11,
+    "name": "Silk-Cotton Long Shirt",
+    "category": "Tops",
+    "Section": "Apparel",
+    "price": 175000,
+    "image": "images/long-shirt/blend3.jpeg",
+    "images": {
+      "Ecru": "images/long-shirt/blend3.jpeg",
+      "Dusty Pink": "images/long-shirt/blend-pink.jpeg",
+      "Sage Green": "images/long-shirt/blend-green.jpeg"
+    },
+    "colors": ["Ecru", "Dusty Pink", "Sage Green"],
+    "sizes": ["S", "M", "L"],
+    "description": "Luxurious silk-cotton blend long shirt with a relaxed drape and subtle sheen. Perfect for layering or wearing alone.",
+    "material": "55% Silk, 45% Cotton",
+    "rating": 4.7,
+    "reviews": 63,
+    "inStock": true
+  },
+  {
+    "id": 12,
+    "name": "Technical Jogger Pants",
+    "category": "Bottoms",
+    "Section": "Apparel",
+    "price": 475000,
+    "discountedPrice": 399000,
+    "image": "images/longpants/joger1.jpeg",
+    "images": {
+      "Black": "images/longpants/joger1.jpeg",
+      "Dark Gray": "images/longpants/joger-gray.jpeg",
+      "Olive": "images/longpants/joger-olive.jpeg"
+    },
+    "colors": ["Black", "Dark Gray", "Olive"],
+    "sizes": ["S", "M", "L", "XL"],
+    "description": "Performance jogger pants with water-resistant fabric and articulated knees for full range of motion. Hidden zippered pockets.",
+    "material": "92% Nylon, 8% Spandex",
+    "rating": 4.6,
+    "reviews": 117,
+    "inStock": true
+  },
+  {
+    "id": 13,
+    "name": "Minimalist Sneakers",
+    "category": "Sneakers",
+    "Section": "Footwear",
+    "price": 550000,
+    "image": "images/shoes/sneakers1.jpeg",
+    "images": {
+      "White": "images/shoes/sneakers1.jpeg",
+      "Black": "images/shoes/sneakers-black.jpeg",
+      "Cream": "images/shoes/sneakers-cream.jpeg"
+    },
+    "colors": ["White", "Black", "Cream"],
+    "sizes": ["39", "40", "41", "42", "43"],
+    "description": "Clean-lined minimalist sneakers with premium leather uppers and memory foam insoles. Versatile enough for any occasion.",
+    "material": "Full-grain Leather",
+    "rating": 4.8,
+    "reviews": 231,
+    "inStock": true
+  },
+  {
+    "id": 14,
+    "name": "Panama Hat",
+    "category": "Hat",
+    "Section": "Headwear",
+    "price": 250000,
+    "image": "images/hat/panama.jpeg",
+    "images": {
+      "Natural": "images/hat/panama.jpeg",
+      "Black": "images/hat/panama-black.jpeg",
+      "Taupe": "images/hat/panama-taupe.jpeg"
+    },
+    "colors": ["Natural", "Black", "Taupe"],
+    "sizes": ["S/M", "L/XL"],
+    "description": "Handwoven Panama hat with a refined teardrop crown and black leather band. Provides UPF 50+ sun protection.",
+    "material": "100% Toquilla Straw",
+    "rating": 4.7,
+    "reviews": 94,
+    "inStock": true
+  },
+  {
+    "id": 15,
+    "name": "Cashmere-Blend Scarf",
+    "category": "Bandanas & Wraps",
+    "Section": "Headwear",
+    "price": 150000,
+    "discountedPrice": 99000,
+    "image": "images/accessories/scarf1.jpeg",
+    "images": {
+      "cream": "images/accessories/scarf1.jpeg",
+      "Camel": "images/accessories/scarf-camel.jpeg",
+      "Charcoal": "images/accessories/scarf-charcoal.jpeg",
+      "Navy": "images/accessories/scarf-navy.jpeg",
+      "Burgundy": "images/accessories/scarf-burgundy.jpeg"
+    },
+    "colors": ["Camel", "Charcoal", "Navy", "Burgundy"],
+    "sizes": ["One Size"],
+    "description": "Luxurious cashmere-wool blend scarf with a generous length and soft hand-feel. Perfect for adding warmth and style.",
+    "material": "70% Cashmere, 30% Wool",
+    "rating": 4.9,
+    "reviews": 187,
+    "inStock": true
+  },
+  {
+    "id": 16,
+    "name": "Classic Leather Loafers",
+    "category": "Casual Shoes",
+    "Section": "Footwear",
+    "price": 599000,
+    "discountedPrice": 499000,
+    "image": "images/shoes/loafers1.jpeg",
+    "images": {
+      "Tan": "images/shoes/loafers1.jpeg",
+      "Black": "images/shoes/loafers-black.jpeg",
+      "Brown": "images/shoes/loafers-brown.jpeg"
+    },
+    "colors": ["Tan", "Black", "Brown"],
+    "sizes": ["39", "40", "41", "42", "43"],
+    "description": "Timeless leather loafers with a comfortable cushioned insole and flexible rubber outsole. Perfect for both casual and formal wear.",
+    "material": "100% Genuine Leather",
+    "rating": 4.7,
+    "reviews": 112,
+    "inStock": true
+  },
+  {
+    "id": 17,
+    "name": "High Top Sneakers",
+    "category": "Sneakers",
+    "Section": "Footwear",
+    "price": 450000,
+    "image": "images/shoes/hightop1.jpeg",
+    "images": {
+      "White": "images/shoes/hightop1.jpeg",
+      "Black": "images/shoes/hightop-black.jpeg",
+      "Red": "images/shoes/hightop-red.jpeg"
+    },
+    "colors": ["White", "Black", "Red"],
+    "sizes": ["38", "39", "40", "41", "42", "43"],
+    "description": "Lightweight high-top sneakers made from durable canvas with reinforced stitching and a padded ankle collar for support.",
+    "material": "100% Cotton Canvas",
+    "rating": 4.5,
+    "reviews": 87,
+    "inStock": true
+  },
+  {
+    "id": 18,
+    "name": "Waterproof Hiking Boots",
+    "category": "Boots",
+    "Section": "Footwear",
+    "price": 800000,
+    "discountedPrice": 759000,
+    "image": "images/shoes/hiking1.jpeg",
+    "images": {
+      "Dark Brown": "images/shoes/hiking1.jpeg",
+      "Olive": "images/shoes/hiking-olive.jpeg"
+    },
+    "colors": ["Dark Brown", "Olive"],
+    "sizes": ["40", "41", "42", "43", "44"],
+    "description": "Rugged waterproof hiking boots with Vibram soles for superior traction and ankle support. Ideal for outdoor adventures.",
+    "material": "Waterproof Leather & Nylon",
+    "rating": 4.8,
+    "reviews": 134,
+    "inStock": true
+  },
+  {
+    "id": 19,
+    "name": "Slip-On Espadrilles",
+    "category": "Casual Shoes",
+    "Section": "Footwear",
+    "price": 250000,
+    "image": "images/shoes/espadrilles1.jpeg",
+    "images": {
+      "Navy": "images/shoes/espadrilles1.jpeg",
+      "Beige": "images/shoes/espadrilles-beige.jpeg",
+      "Striped": "images/shoes/espadrilles-striped.jpeg"
+    },
+    "colors": ["Navy", "Beige", "Striped"],
+    "sizes": ["39", "40", "41", "42"],
+    "description": "Breathable slip-on espadrilles with jute soles and soft cotton uppers. Perfect for summer outings.",
+    "material": "Cotton & Jute",
+    "rating": 4.4,
+    "reviews": 76,
+    "inStock": true
+  },
+  {
+    "id": 20,
+    "name": "Chelsea Boots",
+    "category": "Boots",
+    "Section": "Footwear",
+    "price": 650000,
+    "image": "images/shoes/chelsea1.jpeg",
+    "images": {
+      "Black": "images/shoes/chelsea1.jpeg",
+      "Dark Brown": "images/shoes/chelsea-brown.jpeg"
+    },
+    "colors": ["Black", "Dark Brown"],
+    "sizes": ["39", "40", "41", "42", "43"],
+    "description": "Sleek Chelsea boots with elastic side panels and a leather sole. Versatile for both casual and formal outfits.",
+    "material": "100% Leather",
+    "rating": 4.7,
+    "reviews": 98,
+    "inStock": true
+  },
+  {
+    "id": 21,
+    "name": "Wool Fedora Hat",
+    "category": "Hat",
+    "Section": "Headwear",
+    "price": 275000,
+    "image": "images/hat/fedora1.jpeg",
+    "images": {
+      "Gray": "images/hat/fedora1.jpeg",
+      "Black": "images/hat/fedora-black.jpeg",
+      "Brown": "images/hat/fedora-brown.jpeg"
+    },
+    "colors": ["Gray", "Black", "Brown"],
+    "sizes": ["S/M", "L/XL"],
+    "description": "Classic wool fedora hat with a pinched crown and grosgrain ribbon. Adds a touch of sophistication to any outfit.",
+    "material": "100% Wool",
+    "rating": 4.6,
+    "reviews": 89,
+    "inStock": true
+  },
+  {
+    "id": 22,
+    "name": "Bucket Hat",
+    "category": "Hat",
+    "Section": "Headwear",
+    "price": 250000,
+    "image": "images/hat/bucket1.jpeg",
+    "images": {
+      "Khaki": "images/hat/bucket1.jpeg",
+      "Black": "images/hat/bucket-black.jpeg",
+      "Navy": "images/hat/bucket-navy.jpeg"
+    },
+    "colors": ["Khaki", "Black", "Navy"],
+    "sizes": ["One Size"],
+    "description": "Casual bucket hat made from water-resistant fabric. Features a wide brim for sun protection and a relaxed fit.",
+    "material": "Polyester",
+    "rating": 4.3,
+    "reviews": 64,
+    "inStock": true
+  },
+  {
+    "id": 23,
+    "name": "Tweed Newsboy Cap",
+    "category": "Cap",
+    "Section": "Headwear",
+    "price": 250000,
+    "image": "images/hat/newsboy1.jpeg",
+    "images": {
+      "Herringbone": "images/hat/newsboy1.jpeg",
+      "Brown Check": "images/hat/newsboy-check.jpeg"
+    },
+    "colors": ["Herringbone", "Brown Check"],
+    "sizes": ["S/M", "L/XL"],
+    "description": "Vintage-inspired tweed newsboy cap with a button crown and short brim. Ideal for a retro-inspired look.",
+    "material": "100% Wool Tweed",
+    "rating": 4.5,
+    "reviews": 72,
+    "inStock": true
+  },
+  {
+    "id": 24,
+    "name": "Wide-Brim Sun Hat",
+    "category": "Hat",
+    "Section": "Headwear",
+    "price": 150000,
+    "image": "images/hat/sunhat1.jpeg",
+    "images": {
+      "Natural": "images/hat/sunhat1.jpeg",
+      "Light Blue": "images/hat/sunhat-blue.jpeg"
+    },
+    "colors": ["Natural", "Light Blue"],
+    "sizes": ["One Size"],
+    "description": "Lightweight wide-brim sun hat with UPF 50+ protection and an adjustable chin strap. Perfect for beach days.",
+    "material": "Straw & Polyester",
+    "rating": 4.4,
+    "reviews": 58,
+    "inStock": true
+  },
+  {
+    "id": 25,
+    "name": "Cashmere Beret",
+    "category": "Hat",
+    "Section": "Headwear",
+    "price": 425000,
+    "image": "images/hat/baret1.jpeg",
+    "images": {
+      "Black": "images/hat/baret1.jpeg",
+      "Camel": "images/hat/baret-camel.jpeg",
+      "Burgundy": "images/hat/baret-burgundy.jpeg"
+    },
+    "colors": ["Black", "Camel", "Burgundy"],
+    "sizes": ["One Size"],
+    "description": "Elegant cashmere beret with a subtle slouch and leather trim. Adds a Parisian flair to any ensemble.",
+    "material": "100% Cashmere",
+    "rating": 4.7,
+    "reviews": 103,
+    "inStock": true
+  },
+  {
+    "id": 26,
+    "name": "Leather Belt",
+    "category": "Belts",
+    "Section": "Accessories",
+    "price": 235000,
+    "image": "images/accessories/belt1.jpeg",
+    "images": {
+      "Brown": "images/accessories/belt1.jpeg",
+      "Black": "images/accessories/belt-black.jpeg"
+    },
+    "colors": ["Brown", "Black"],
+    "sizes": ["S", "M", "L", "XL"],
+    "description": "Full-grain leather belt with a polished buckle and adjustable fit. Suitable for both casual and formal wear.",
+    "material": "100% Leather",
+    "rating": 4.6,
+    "reviews": 95,
+    "inStock": true
+  },
+  {
+    "id": 27,
+    "name": "Silk Pocket Square",
+    "category": "Bags",
+    "Section": "Accessories",
+    "price": 120000,
+    "image": "images/accessories/pocketsquare1.jpeg",
+    "images": {
+      "Navy": "images/accessories/pocketsquare1.jpeg",
+      "Burgundy": "images/accessories/pocketsquare-burgundy.jpeg",
+      "Ivory": "images/accessories/pocketsquare-ivory.jpeg"
+    },
+    "colors": ["Navy", "Burgundy", "Ivory"],
+    "sizes": ["One Size"],
+    "description": "Luxurious silk pocket square with hand-rolled edges. Adds a refined touch to suit jackets.",
+    "material": "100% Silk",
+    "rating": 4.5,
+    "reviews": 67,
+    "inStock": true
+  },
+  {
+    "id": 28,
+    "name": "Wool Gloves",
+    "category": "Gloves",
+    "Section": "Accessories",
+    "price": 125000,
+    "image": "images/accessories/gloves1.jpeg",
+    "images": {
+      "Charcoal": "images/accessories/gloves1.jpeg",
+      "Camel": "images/accessories/gloves-camel.jpeg"
+    },
+    "colors": ["Charcoal", "Camel"],
+    "sizes": ["S/M", "L/XL"],
+    "description": "Warm wool gloves with touchscreen-compatible fingertips and a snug fit. Ideal for winter.",
+    "material": "80% Wool, 20% Nylon",
+    "rating": 4.4,
+    "reviews": 81,
+    "inStock": true
+  },
+  {
+    "id": 29,
+    "name": "Minimalist Watch",
+    "category": "Watch",
+    "Section": "Accessories",
+    "price": 1200000,
+    "discountedPrice": 999000,
+    "image": "images/accessories/watch1.jpeg",
+    "images": {
+      "Silver": "images/accessories/watch1.jpeg",
+      "Black": "images/accessories/watch-black.jpeg",
+      "Rose Gold": "images/accessories/watch-rosegold.jpeg"
+    },
+    "colors": ["Silver", "Black", "Rose Gold"],
+    "sizes": ["One Size"],
+    "description": "Sleek minimalist watch with a Japanese movement and genuine leather strap. Water-resistant up to 50m.",
+    "material": "Stainless Steel & Leather",
+    "rating": 4.8,
+    "reviews": 142,
+    "inStock": true
+  },
+  {
+    "id": 30,
+    "name": "Canvas Tote Bag",
+    "category": "Bags",
+    "Section": "Accessories",
+    "price": 325000,
+    "image": "images/accessories/tote1.jpeg",
+    "images": {
+      "Natural": "images/accessories/tote1.jpeg",
+      "Black": "images/accessories/tote-black.jpeg",
+      "Striped": "images/accessories/tote-striped.jpeg"
+    },
+    "colors": ["Natural", "Black", "Striped"],
+    "sizes": ["One Size"],
+    "description": "Spacious canvas tote bag with leather handles and interior pockets. Perfect for daily use.",
+    "material": "Canvas & Leather",
+    "rating": 4.5,
+    "reviews": 76,
+    "inStock": true
+  },
+  {
+    "id": 31,
+    "name": "Signature Tiedye Cotton T-Shirt",
+    "category": "Tops",
+    "Section": "Apparel",
+    "price": 160000,
+    "image": "images/t-shirt/tiedye1.jpeg",
+    "images": {
+      "1": "images/t-shirt/tiedye1.jpeg",
+      "2": "images/t-shirt/tiedye2.jpeg",
+      "3": "images/t-shirt/tiedye3.jpeg",
+      "4": "images/t-shirt/tiedye4.jpeg",
+      "5": "images/t-shirt/tiedye5.jpeg"
+    },
+    "colors": ["1", "2", "3", "4", "5"],
+    "sizes": ["XS", "S", "M", "L", "XL"],
+    "description": "Premium heavyweight cotton t-shirt with double-stitched seams and reinforced collar for exceptional durability.",
+    "material": "100% Organic Cotton",
+    "rating": 4.6,
+    "reviews": 215,
+    "inStock": true
+  },
+  {
+    "id": 32,
+    "name": "Premium Cashmere Abstrak Hoodie",
+    "category": "Tops",
+    "Section": "Apparel",
+    "price": 300000,
+    "discountedPrice": 250000,
+    "image": "images/hoodie/abstrak.jpeg",
+    "images": {
+      "1": "images/hoodie/abstrak.jpeg",
+      "2": "images/hoodie/abstrak2.jpeg"
+    },
+    "colors": ["1", "2"],
+    "sizes": ["S", "M", "L", "XL"],
+    "description": "Ultra-soft cashmere blend hoodie with premium stitching and a relaxed fit. Features a kangaroo pocket and adjustable drawstring hood.",
+    "material": "80% Cashmere, 20% Cotton",
+    "rating": 4.8,
+    "reviews": 124,
+    "inStock": true
+  },
+  {
+    "id": 33,
+    "name": "Premium Cashmere Flower Hoodie",
+    "category": "Tops",
+    "Section": "Apparel",
+    "price": 300000,
+    "discountedPrice": 250000,
+    "image": "images/hoodie/flower.jpeg",
+    "images": {
+      "1": "images/hoodie/flower.jpeg",
+      "2": "images/hoodie/flower2.jpeg",
+      "3": "images/hoodie/flower3.jpeg",
+      "4": "images/hoodie/flower4.jpeg",
+      "5": "images/hoodie/flower5.jpeg",
+      "6": "images/hoodie/flower6.jpeg",
+      "7": "images/hoodie/flower7.jpeg"
+    },
+    "colors": ["1", "2", "3", "4", "5", "6", "7"],
+    "sizes": ["S", "M", "L", "XL"],
+    "description": "Ultra-soft cashmere blend hoodie with premium stitching and a relaxed fit. Features a kangaroo pocket and adjustable drawstring hood.",
+    "material": "80% Cashmere, 20% Cotton",
+    "rating": 4.8,
+    "reviews": 124,
+    "inStock": true
+  },
+  {
+    "id": 34,
+    "name": "Premium Cashmere Abstrak City Hoodie",
+    "category": "Tops",
+    "Section": "Apparel",
+    "price": 300000,
+    "discountedPrice": 250000,
+    "image": "images/hoodie/kota1.jpeg",
+    "images": {
+      "1": "images/hoodie/kota1.jpeg",
+      "2": "images/hoodie/kota2.jpeg",
+      "3": "images/hoodie/kota3.jpeg",
+      "4": "images/hoodie/kota4.jpeg"
+    },
+    "colors": ["1", "2", "3", "4"],
+    "sizes": ["S", "M", "L", "XL"],
+    "description": "Ultra-soft cashmere blend hoodie with premium stitching and a relaxed fit. Features a kangaroo pocket and adjustable drawstring hood.",
+    "material": "80% Cashmere, 20% Cotton",
+    "rating": 4.8,
+    "reviews": 124,
+    "inStock": true
+  },
+  {
+    "id": 35,
+    "name": "Oversized Graphic Tee",
+    "category": "Tops",
+    "Section": "Apparel",
+    "price": 180000,
+    "discountedPrice": 150000,
+    "image": "images/t-shirt/street-graphic1.jpeg",
+    "images": {
+      "Black": "images/t-shirt/street-graphic1.jpeg",
+      "White": "images/t-shirt/street-graphic2.jpeg",
+      "Gray": "images/t-shirt/street-graphic3.jpeg"
+    },
+    "colors": ["Black", "White", "Gray"],
+    "sizes": ["S", "M", "L", "XL", "XXL"],
+    "description": "Oversized streetwear t-shirt with bold graphic print. 100% cotton for maximum comfort.",
+    "material": "100% Cotton",
+    "rating": 4.7,
+    "reviews": 215,
+    "inStock": true,
+    "isNew": true
+  },
+  {
+    "id": 36,
+    "name": "Cropped Hoodie",
+    "category": "Tops",
+    "Section": "Apparel",
+    "price": 350000,
+    "image": "images/hoodie/street-crop1.jpeg",
+    "images": {
+      "Khaki": "images/hoodie/street-crop1.jpeg",
+      "Black": "images/hoodie/street-crop2.jpeg"
+    },
+    "colors": ["Khaki", "Black"],
+    "sizes": ["S", "M", "L"],
+    "description": "Trendy cropped hoodie with kangaroo pocket and adjustable drawstrings. Perfect for layering.",
+    "material": "80% Cotton, 20% Polyester",
+    "rating": 4.6,
+    "reviews": 198,
+    "inStock": true
+  },
+  {
+    "id": 37,
+    "name": "Biker Jacket",
+    "category": "Tops",
+    "Section": "Apparel",
+    "price": 750000,
+    "discountedPrice": 650000,
+    "image": "images/jacket/street-biker1.jpeg",
+    "images": {
+      "Black": "images/jacket/street-biker1.jpeg",
+      "Brown": "images/jacket/street-biker2.jpeg"
+    },
+    "colors": ["Black", "Brown"],
+    "sizes": ["M", "L", "XL"],
+    "description": "Faux leather biker jacket with multiple zippers and stand-up collar. Streetwear essential.",
+    "material": "100% PU Leather",
+    "rating": 4.8,
+    "reviews": 243,
+    "inStock": true,
+    "isNew": true
+  },
+  {
+    "id": 38,
+    "name": "Color Block Sweatshirt",
+    "category": "Tops",
+    "Section": "Apparel",
+    "price": 420000,
+    "image": "images/sweatshirt/street-colorblock1.jpeg",
+    "images": {
+      "Black/White": "images/sweatshirt/street-colorblock1.jpeg",
+      "Gray/Orange": "images/sweatshirt/street-colorblock2.jpeg"
+    },
+    "colors": ["Black/White", "Gray/Orange"],
+    "sizes": ["S", "M", "L", "XL"],
+    "description": "Bold color block design sweatshirt with dropped shoulders for a relaxed streetwear look.",
+    "material": "70% Cotton, 30% Polyester",
+    "rating": 4.5,
+    "reviews": 176,
+    "inStock": true
+  },
+  {
+    "id": 39,
+    "name": "Mesh Football Jersey",
+    "category": "Tops",
+    "Section": "Apparel",
+    "price": 280000,
+    "discountedPrice": 220000,
+    "image": "images/jersey/street-mesh1.jpeg",
+    "images": {
+      "Black/Red": "images/jersey/street-mesh1.jpeg",
+      "White/Blue": "images/jersey/street-mesh2.jpeg"
+    },
+    "colors": ["Black/Red", "White/Blue"],
+    "sizes": ["S", "M", "L", "XL"],
+    "description": "Breathable mesh football jersey with oversized fit. Perfect for streetwear aesthetic.",
+    "material": "100% Polyester",
+    "rating": 4.4,
+    "reviews": 202,
+    "inStock": true
+  },
+  {
+    "id": 40,
+    "name": "Cargo Jogger Pants",
+    "category": "Bottoms",
+    "Section": "Apparel",
+    "price": 450000,
+    "image": "images/pants/street-cargo1.jpeg",
+    "images": {
+      "Black": "images/pants/street-cargo1.jpeg",
+      "Olive": "images/pants/street-cargo2.jpeg"
+    },
+    "colors": ["Black", "Olive"],
+    "sizes": ["28", "30", "32", "34", "36"],
+    "description": "Utility cargo joggers with multiple pockets and adjustable ankle cuffs. Streetwear staple.",
+    "material": "100% Cotton",
+    "rating": 4.7,
+    "reviews": 312,
+    "inStock": true,
+    "isNew": true
+  },
+  {
+    "id": 41,
+    "name": "Distressed Denim Jeans",
+    "category": "Bottoms",
+    "Section": "Apparel",
+    "price": 550000,
+    "discountedPrice": 480000,
+    "image": "images/jeans/street-distressed1.jpeg",
+    "images": {
+      "Light Blue": "images/jeans/street-distressed1.jpeg",
+      "Black": "images/jeans/street-distressed2.jpeg"
+    },
+    "colors": ["Light Blue", "Black"],
+    "sizes": ["28", "30", "32", "34"],
+    "description": "Artfully distressed denim jeans with ripped details and slim fit. Made from premium denim.",
+    "material": "98% Cotton, 2% Elastane",
+    "rating": 4.8,
+    "reviews": 287,
+    "inStock": true
+  },
+  {
+    "id": 42,
+    "name": "Techwear Pants",
+    "category": "Bottoms",
+    "Section": "Apparel",
+    "price": 650000,
+    "image": "images/pants/street-tech1.jpeg",
+    "images": {
+      "Gray": "images/pants/street-tech1.jpeg",
+      "Black": "images/pants/street-tech2.jpeg"
+    },
+    "colors": ["Gray", "Black"],
+    "sizes": ["S", "M", "L", "XL"],
+    "description": "Water-resistant techwear pants with articulated knees and hidden pockets. Futuristic streetwear.",
+    "material": "85% Nylon, 15% Spandex",
+    "rating": 4.6,
+    "reviews": 234,
+    "inStock": true
+  },
+  {
+    "id": 43,
+    "name": "Wide Leg Trousers",
+    "category": "Bottoms",
+    "Section": "Apparel",
+    "price": 380000,
+    "discountedPrice": 320000,
+    "image": "images/pants/street-wide1.jpeg",
+    "images": {
+      "Beige": "images/pants/street-wide1.jpeg",
+      "Black": "images/pants/street-wide2.jpeg"
+    },
+    "colors": ["Beige", "Black"],
+    "sizes": ["28", "30", "32", "34"],
+    "description": "Trendy wide leg trousers with high waist and belt loops. Perfect for streetwear styling.",
+    "material": "65% Cotton, 35% Polyester",
+    "rating": 4.5,
+    "reviews": 198,
+    "inStock": true
+  },
+  {
+    "id": 44,
+    "name": "Biker Shorts",
+    "category": "Bottoms",
+    "Section": "Apparel",
+    "price": 220000,
+    "image": "images/shorts/street-biker1.jpeg",
+    "images": {
+      "Black": "images/shorts/street-biker1.jpeg",
+      "Gray": "images/shorts/street-biker2.jpeg"
+    },
+    "colors": ["Black", "Gray"],
+    "sizes": ["S", "M", "L"],
+    "description": "Compression biker shorts with side stripes and moisture-wicking fabric. Streetwear essential.",
+    "material": "88% Polyester, 12% Spandex",
+    "rating": 4.4,
+    "reviews": 256,
+    "inStock": true,
+    "isNew": true
+  },
+  {
+    "id": 45,
+    "name": "Patchwork Denim",
+    "category": "Bottoms",
+    "Section": "Apparel",
+    "price": 680000,
+    "image": "images/jeans/street-patch1.jpeg",
+    "images": {
+      "Blue": "images/jeans/street-patch1.jpeg",
+      "Black": "images/jeans/street-patch2.jpeg"
+    },
+    "colors": ["Blue", "Black"],
+    "sizes": ["28", "30", "32", "34"],
+    "description": "Unique patchwork denim jeans with contrast stitching and relaxed fit. Handcrafted details.",
+    "material": "100% Cotton Denim",
+    "rating": 4.9,
+    "reviews": 302,
+    "inStock": true
+  },
+  {
+    "id": 46,
+    "name": "Camo Cargo Pants",
+    "category": "Bottoms",
+    "Section": "Apparel",
+    "price": 520000,
+    "discountedPrice": 450000,
+    "image": "images/pants/street-camo1.jpeg",
+    "images": {
+      "Green Camo": "images/pants/street-camo1.jpeg",
+      "Black Camo": "images/pants/street-camo2.jpeg"
+    },
+    "colors": ["Green Camo", "Black Camo"],
+    "sizes": ["S", "M", "L", "XL"],
+    "description": "Military-inspired camo cargo pants with multiple pockets and adjustable waist.",
+    "material": "65% Cotton, 35% Polyester",
+    "rating": 4.7,
+    "reviews": 278,
+    "inStock": true
+  },
+  {
+    "id": 47,
+    "name": "Leather Pants",
+    "category": "Bottoms",
+    "Section": "Apparel",
+    "price": 850000,
+    "image": "images/pants/street-leather1.jpeg",
+    "images": {
+      "Black": "images/pants/street-leather1.jpeg",
+      "Brown": "images/pants/street-leather2.jpeg"
+    },
+    "colors": ["Black", "Brown"],
+    "sizes": ["28", "30", "32", "34"],
+    "description": "Faux leather pants with zipper details and slim fit. Edgy streetwear statement piece.",
+    "material": "100% PU Leather",
+    "rating": 4.8,
+    "reviews": 267,
+    "inStock": true
+  },
+  {
+    "id": 48,
+    "name": "Drop Crotch Sweatpants",
+    "category": "Bottoms",
+    "Section": "Apparel",
+    "price": 380000,
+    "discountedPrice": 330000,
+    "image": "images/pants/street-drop1.jpeg",
+    "images": {
+      "Gray": "images/pants/street-drop1.jpeg",
+      "Black": "images/pants/street-drop2.jpeg"
+    },
+    "colors": ["Gray", "Black"],
+    "sizes": ["S", "M", "L", "XL"],
+    "description": "Oversized drop crotch sweatpants with drawstring waist. Ultimate streetwear comfort.",
+    "material": "80% Cotton, 20% Polyester",
+    "rating": 4.6,
+    "reviews": 245,
+    "inStock": true,
+    "isNew": true
+  },
+  {
+    "id": 49,
+    "name": "Ripped Denim Shorts",
+    "category": "Bottoms",
+    "Section": "Apparel",
+    "price": 320000,
+    "image": "images/shorts/street-ripped1.jpeg",
+    "images": {
+      "Light Blue": "images/shorts/street-ripped1.jpeg",
+      "Black": "images/shorts/street-ripped2.jpeg"
+    },
+    "colors": ["Light Blue", "Black"],
+    "sizes": ["28", "30", "32", "34"],
+    "description": "Distressed denim shorts with frayed edges and streetwear-inspired fit. Summer essential.",
+    "material": "98% Cotton, 2% Elastane",
+    "rating": 4.5,
+    "reviews": 231,
+    "inStock": true
+  },
+  {
+    "id": 50,
+    "name": "Logo Dad Hat",
+    "category": "Hat",
+    "Section": "Headwear",
+    "price": 150000,
+    "image": "images/hat/street-dad1.jpeg",
+    "images": {
+      "Black": "images/hat/street-dad1.jpeg",
+      "White": "images/hat/street-dad2.jpeg"
+    },
+    "colors": ["Black", "White"],
+    "sizes": ["One Size"],
+    "description": "Classic dad hat with embroidered logo. Curved brim and adjustable strap.",
+    "material": "100% Cotton",
+    "rating": 4.7,
+    "reviews": 412,
+    "inStock": true
+  },
+  {
+    "id": 51,
+    "name": "Bucket Hat",
+    "category": "Hat",
+    "Section": "Headwear",
+    "price": 180000,
+    "discountedPrice": 150000,
+    "image": "images/hat/street-bucket1.jpeg",
+    "images": {
+      "Black": "images/hat/street-bucket1.jpeg",
+      "Camo": "images/hat/street-bucket2.jpeg"
+    },
+    "colors": ["Black", "Camo"],
+    "sizes": ["One Size"],
+    "description": "Streetwear bucket hat with tonal stitching and medium brim. Sun protection with style.",
+    "material": "100% Nylon",
+    "rating": 4.6,
+    "reviews": 387,
+    "inStock": true,
+    "isNew": true
+  },
+  {
+    "id": 70,
+    "name": "Chunky Sneakers",
+    "category": "Sneakers",
+    "Section": "Footwear",
+    "price": 850000,
+    "image": "images/shoes/street-chunky1.jpeg",
+    "images": {
+      "White": "images/shoes/street-chunky1.jpeg",
+      "Black": "images/shoes/street-chunky2.jpeg"
+    },
+    "colors": ["White", "Black"],
+    "sizes": ["39", "40", "41", "42", "43", "44"],
+    "description": "Oversized sole sneakers with bold streetwear aesthetic. Maximum comfort and style.",
+    "material": "Leather & Mesh",
+    "rating": 4.8,
+    "reviews": 478,
+    "inStock": true
+  },
+  {
+    "id": 71,
+    "name": "High-Top Skate Shoes",
+    "category": "Sneakers",
+    "Section": "Footwear",
+    "price": 720000,
+    "discountedPrice": 650000,
+    "image": "images/shoes/street-skate1.jpeg",
+    "images": {
+      "Black/White": "images/shoes/street-skate1.jpeg",
+      "Red/White": "images/shoes/street-skate2.jpeg"
+    },
+    "colors": ["Black/White", "Red/White"],
+    "sizes": ["39", "40", "41", "42", "43"],
+    "description": "Durable high-top skate shoes with reinforced toe and vulcanized soles. Streetwear classic.",
+    "material": "Canvas & Rubber",
+    "rating": 4.7,
+    "reviews": 432,
+    "inStock": true
+  },
+  {
+    "id": 80,
+    "name": "Chain Necklace",
+    "category": "Jewelry",
+    "Section": "Accessories",
+    "price": 250000,
+    "image": "images/accessories/street-chain1.jpeg",
+    "images": {
+      "Silver": "images/accessories/street-chain1.jpeg",
+      "Gold": "images/accessories/street-chain2.jpeg"
+    },
+    "colors": ["Silver", "Gold"],
+    "sizes": ["One Size"],
+    "description": "Statement chain necklace with lobster clasp. Adjustable length for layering.",
+    "material": "Stainless Steel",
+    "rating": 4.6,
+    "reviews": 321,
+    "inStock": true,
+    "isNew": true
+  },
+  {
+    "id": 81,
+    "name": "Logo Sling Bag",
+    "category": "Bags",
+    "Section": "Accessories",
+    "price": 450000,
+    "discountedPrice": 390000,
+    "image": "images/accessories/street-sling1.jpeg",
+    "images": {
+      "Black": "images/accessories/street-sling1.jpeg",
+      "Camo": "images/accessories/street-sling2.jpeg"
+    },
+    "colors": ["Black", "Camo"],
+    "sizes": ["One Size"],
+    "description": "Compact sling bag with multiple compartments and adjustable strap. Streetwear essential.",
+    "material": "Nylon & Polyester",
+    "rating": 4.5,
+    "reviews": 287,
+    "inStock": true
+  },
+  {
+    "id": 100,
+    "name": "Layered Chain Necklace Set",
+    "category": "Jewelry",
+    "Section": "Accessories",
+    "price": 320000,
+    "image": "images/accessories/jewelry-chainset.jpeg",
+    "images": {
+      "Gold": "images/accessories/jewelry-chainset-gold.jpeg",
+      "Silver": "images/accessories/jewelry-chainset-silver.jpeg"
+    },
+    "colors": ["Gold", "Silver"],
+    "sizes": ["One Size"],
+    "description": "Set of three layered chains in varying lengths for trendy streetwear stacking. Hypoallergenic metal.",
+    "material": "Stainless Steel",
+    "rating": 4.7,
+    "reviews": 287,
+    "inStock": true,
+    "isNew": true
+  },
+  {
+    "id": 101,
+    "name": "Chunky Signet Ring",
+    "category": "Jewelry",
+    "Section": "Accessories",
+    "price": 180000,
+    "discountedPrice": 150000,
+    "image": "images/accessories/jewelry-signet.jpeg",
+    "images": {
+      "Silver": "images/accessories/jewelry-signet-silver.jpeg",
+      "Black": "images/accessories/jewelry-signet-black.jpeg"
+    },
+    "colors": ["Silver", "Black"],
+    "sizes": ["6", "7", "8", "9"],
+    "description": "Bold signet ring with abstract engraving. Makes a strong streetwear statement.",
+    "material": "Zinc Alloy",
+    "rating": 4.6,
+    "reviews": 245,
+    "inStock": true
+  },
+  {
+    "id": 102,
+    "name": "Curb Link Bracelet",
+    "category": "Jewelry",
+    "Section": "Accessories",
+    "price": 275000,
+    "image": "images/accessories/jewelry-curb.jpeg",
+    "images": {
+      "Gold": "images/accessories/jewelry-curb-gold.jpeg",
+      "Silver": "images/accessories/jewelry-curb-silver.jpeg"
+    },
+    "colors": ["Gold", "Silver"],
+    "sizes": ["S/M", "L/XL"],
+    "description": "Heavy curb link chain bracelet with lobster clasp. Adjustable for perfect fit.",
+    "material": "Stainless Steel",
+    "rating": 4.8,
+    "reviews": 312,
+    "inStock": true
+  },
+  {
+    "id": 103,
+    "name": "Hoop Earrings Set",
+    "category": "Jewelry",
+    "Section": "Accessories",
+    "price": 220000,
+    "image": "images/accessories/jewelry-hoops.jpeg",
+    "images": {
+      "Gold": "images/accessories/jewelry-hoops-gold.jpeg",
+      "Silver": "images/accessories/jewelry-hoops-silver.jpeg"
+    },
+    "colors": ["Gold", "Silver"],
+    "sizes": ["One Size"],
+    "description": "Set of three hoop earrings in varying sizes. Perfect for mixing and matching.",
+    "material": "Surgical Steel",
+    "rating": 4.5,
+    "reviews": 198,
+    "inStock": true
+  },
+  {
+    "id": 104,
+    "name": "Pendant Necklace",
+    "category": "Jewelry",
+    "Section": "Accessories",
+    "price": 290000,
+    "discountedPrice": 250000,
+    "image": "images/accessories/jewelry-pendant.jpeg",
+    "images": {
+      "Silver": "images/accessories/jewelry-pendant-silver.jpeg",
+      "Black": "images/accessories/jewelry-pendant-black.jpeg"
+    },
+    "colors": ["Silver", "Black"],
+    "sizes": ["One Size"],
+    "description": "Minimalist pendant necklace with geometric charm. 45cm chain with 5cm extension.",
+    "material": "925 Sterling Silver",
+    "rating": 4.7,
+    "reviews": 267,
+    "inStock": true,
+    "isNew": true
+  },
+  {
+    "id": 105,
+    "name": "Crossbody Sling Bag",
+    "category": "Bags",
+    "Section": "Accessories",
+    "price": 450000,
+    "image": "images/accessories/bag-crossbody.jpeg",
+    "images": {
+      "Black": "images/accessories/bag-crossbody-black.jpeg",
+      "Camo": "images/accessories/bag-crossbody-camo.jpeg"
+    },
+    "colors": ["Black", "Camo"],
+    "sizes": ["One Size"],
+    "description": "Compact crossbody bag with multiple compartments and adjustable strap. Water-resistant material.",
+    "material": "Nylon",
+    "rating": 4.6,
+    "reviews": 321,
+    "inStock": true
+  },
+  {
+    "id": 106,
+    "name": "Drawstring Backpack",
+    "category": "Bags",
+    "Section": "Accessories",
+    "price": 380000,
+    "discountedPrice": 320000,
+    "image": "images/accessories/bag-drawstring.jpeg",
+    "images": {
+      "Black": "images/accessories/bag-drawstring-black.jpeg",
+      "Gray": "images/accessories/bag-drawstring-gray.jpeg"
+    },
+    "colors": ["Black", "Gray"],
+    "sizes": ["One Size"],
+    "description": "Minimalist drawstring backpack with front pocket. Perfect for streetwear casual looks.",
+    "material": "Polyester",
+    "rating": 4.5,
+    "reviews": 287,
+    "inStock": true
+  },
+  {
+    "id": 107,
+    "name": "Waist Bag",
+    "category": "Bags",
+    "Section": "Accessories",
+    "price": 350000,
+    "image": "images/accessories/bag-waist.jpeg",
+    "images": {
+      "Black": "images/accessories/bag-waist-black.jpeg",
+      "Red": "images/accessories/bag-waist-red.jpeg"
+    },
+    "colors": ["Black", "Red"],
+    "sizes": ["One Size"],
+    "description": "Versatile waist bag that can be worn as fanny pack or sling bag. Multiple compartments.",
+    "material": "Nylon",
+    "rating": 4.7,
+    "reviews": 302,
+    "inStock": true,
+    "isNew": true
+  },
+  {
+    "id": 108,
+    "name": "Mini Backpack",
+    "category": "Bags",
+    "Section": "Accessories",
+    "price": 520000,
+    "image": "images/accessories/bag-mini.jpeg",
+    "images": {
+      "Black": "images/accessories/bag-mini-black.jpeg",
+      "White": "images/accessories/bag-mini-white.jpeg"
+    },
+    "colors": ["Black", "White"],
+    "sizes": ["One Size"],
+    "description": "Compact backpack with laptop sleeve and multiple pockets. Padded straps for comfort.",
+    "material": "Polyester",
+    "rating": 4.8,
+    "reviews": 276,
+    "inStock": true
+  },
+  {
+    "id": 109,
+    "name": "Duffel Bag",
+    "category": "Bags",
+    "Section": "Accessories",
+    "price": 650000,
+    "discountedPrice": 580000,
+    "image": "images/accessories/bag-duffel.jpeg",
+    "images": {
+      "Black": "images/accessories/bag-duffel-black.jpeg",
+      "Green": "images/accessories/bag-duffel-green.jpeg"
+    },
+    "colors": ["Black", "Green"],
+    "sizes": ["One Size"],
+    "description": "Weekender duffel bag with shoe compartment and laundry pocket. Removable shoulder strap.",
+    "material": "Canvas",
+    "rating": 4.6,
+    "reviews": 234,
+    "inStock": true
+  },
+  {
+    "id": 110,
+    "name": "Logo Snapback",
+    "category": "Cap",
+    "Section": "Headwear",
+    "price": 220000,
+    "image": "images/accessories/hat-snapback.jpeg",
+    "images": {
+      "Black": "images/accessories/hat-snapback-black.jpeg",
+      "Navy": "images/accessories/hat-snapback-navy.jpeg"
+    },
+    "colors": ["Black", "Navy"],
+    "sizes": ["One Size"],
+    "description": "Classic snapback cap with embroidered logo. Structured crown for perfect shape.",
+    "material": "Cotton",
+    "rating": 4.7,
+    "reviews": 345,
+    "inStock": true
+  },
+  {
+    "id": 111,
+    "name": "Beanie with Logo",
+    "category": "Beanies",
+    "Section": "Headwear",
+    "price": 180000,
+    "discountedPrice": 150000,
+    "image": "images/accessories/hat-beanie.jpeg",
+    "images": {
+      "Black": "images/accessories/hat-beanie-black.jpeg",
+      "Gray": "images/accessories/hat-beanie-gray.jpeg"
+    },
+    "colors": ["Black", "Gray"],
+    "sizes": ["One Size"],
+    "description": "Stretch-fit beanie with embroidered logo. Fold-over cuff for adjustable look.",
+    "material": "Acrylic",
+    "rating": 4.6,
+    "reviews": 298,
+    "inStock": true,
+    "isNew": true
+  },
+  {
+    "id": 112,
+    "name": "Bucket Hat",
+    "category": "Hat",
+    "Section": "Headwear",
+    "price": 200000,
+    "image": "images/accessories/hat-bucket.jpeg",
+    "images": {
+      "Black": "images/accessories/hat-bucket-black.jpeg",
+      "Camo": "images/accessories/hat-bucket-camo.jpeg"
+    },
+    "colors": ["Black", "Camo"],
+    "sizes": ["One Size"],
+    "description": "Structured bucket hat with tonal stitching. UPF 50+ sun protection.",
+    "material": "Cotton",
+    "rating": 4.5,
+    "reviews": 267,
+    "inStock": true
+  },
+  {
+    "id": 113,
+    "name": "Trucker Cap",
+    "category": "Hat",
+    "Section": "Headwear",
+    "price": 190000,
+    "image": "images/accessories/hat-trucker.jpeg",
+    "images": {
+      "Black": "images/accessories/hat-trucker-black.jpeg",
+      "White": "images/accessories/hat-trucker-white.jpeg"
+    },
+    "colors": ["Black", "White"],
+    "sizes": ["One Size"],
+    "description": "Mesh-back trucker cap with curved brim. Adjustable snap closure.",
+    "material": "Polyester/Cotton",
+    "rating": 4.4,
+    "reviews": 231,
+    "inStock": true
+  },
+  {
+    "id": 114,
+    "name": "Dad Hat",
+    "category": "Hat",
+    "Section": "Headwear",
+    "price": 175000,
+    "discountedPrice": 150000,
+    "image": "images/accessories/hat-dad.jpeg",
+    "images": {
+      "Black": "images/accessories/hat-dad-black.jpeg",
+      "Khaki": "images/accessories/hat-dad-khaki.jpeg"
+    },
+    "colors": ["Black", "Khaki"],
+    "sizes": ["One Size"],
+    "description": "Unstructured dad hat with subtle logo embroidery. Relaxed, casual fit.",
+    "material": "Cotton",
+    "rating": 4.6,
+    "reviews": 287,
+    "inStock": true
+  },
+  {
+    "id": 115,
+    "name": "Logo Belt",
+    "category": "Belts",
+    "Section": "Accessories",
+    "price": 280000,
+    "image": "images/accessories/belt-logo.jpeg",
+    "images": {
+      "Black": "images/accessories/belt-logo-black.jpeg",
+      "Brown": "images/accessories/belt-logo-brown.jpeg"
+    },
+    "colors": ["Black", "Brown"],
+    "sizes": ["S", "M", "L", "XL"],
+    "description": "Genuine leather belt with signature buckle. Perfect for jeans or trousers.",
+    "material": "Genuine Leather",
+    "rating": 4.7,
+    "reviews": 312,
+    "inStock": true
+  },
+  {
+    "id": 116,
+    "name": "Webbing Belt",
+    "category": "Belts",
+    "Section": "Accessories",
+    "price": 220000,
+    "discountedPrice": 190000,
+    "image": "images/accessories/belt-webbing.jpeg",
+    "images": {
+      "Black": "images/accessories/belt-webbing-black.jpeg",
+      "Olive": "images/accessories/belt-webbing-olive.jpeg"
+    },
+    "colors": ["Black", "Olive"],
+    "sizes": ["S", "M", "L"],
+    "description": "Military-style webbing belt with metal buckle. Adjustable for perfect fit.",
+    "material": "Nylon",
+    "rating": 4.6,
+    "reviews": 276,
+    "inStock": true,
+    "isNew": true
+  },
+  {
+    "id": 117,
+    "name": "Chain Belt",
+    "category": "Belts",
+    "Section": "Accessories",
+    "price": 320000,
+    "image": "images/accessories/belt-chain.jpeg",
+    "images": {
+      "Silver": "images/accessories/belt-chain-silver.jpeg",
+      "Gold": "images/accessories/belt-chain-gold.jpeg"
+    },
+    "colors": ["Silver", "Gold"],
+    "sizes": ["One Size"],
+    "description": "Statement chain belt that can be worn over shirts or as accessory.",
+    "material": "Metal Alloy",
+    "rating": 4.5,
+    "reviews": 254,
+    "inStock": true
+  },
+  {
+    "id": 118,
+    "name": "Reversible Belt",
+    "category": "Belts",
+    "Section": "Accessories",
+    "price": 350000,
+    "image": "images/accessories/belt-reversible.jpeg",
+    "images": {
+      "Black/Brown": "images/accessories/belt-reversible-bb.jpeg",
+      "Black/Tan": "images/accessories/belt-reversible-bt.jpeg"
+    },
+    "colors": ["Black/Brown", "Black/Tan"],
+    "sizes": ["S", "M", "L"],
+    "description": "Double-sided reversible belt with quick-release buckle. Two looks in one.",
+    "material": "Genuine Leather",
+    "rating": 4.8,
+    "reviews": 298,
+    "inStock": true
+  },
+  {
+    "id": 119,
+    "name": "Braided Leather Belt",
+    "category": "Belts",
+    "Section": "Accessories",
+    "price": 380000,
+    "discountedPrice": 320000,
+    "image": "images/accessories/belt-braided.jpeg",
+    "images": {
+      "Brown": "images/accessories/belt-braided-brown.jpeg",
+      "Black": "images/accessories/belt-braided-black.jpeg"
+    },
+    "colors": ["Brown", "Black"],
+    "sizes": ["S", "M", "L"],
+    "description": "Handcrafted braided leather belt with antique buckle. Unique texture.",
+    "material": "Genuine Leather",
+    "rating": 4.7,
+    "reviews": 267,
+    "inStock": true
+  },
+  {
+    "id": 120,
+    "name": "Aviator Sunglasses",
+    "category": "Eyewear",
+    "Section": "Accessories",
+    "price": 350000,
+    "image": "images/accessories/sunglasses-aviator.jpeg",
+    "images": {
+      "Gold/Green": "images/accessories/sunglasses-aviator-gold.jpeg",
+      "Silver/Gray": "images/accessories/sunglasses-aviator-silver.jpeg"
+    },
+    "colors": ["Gold/Green", "Silver/Gray"],
+    "sizes": ["One Size"],
+    "description": "Classic aviator sunglasses with UV400 protection. Metal frame with comfortable nose pads.",
+    "material": "Metal/Polycarbonate",
+    "rating": 4.8,
+    "reviews": 345,
+    "inStock": true
+  },
+  {
+    "id": 121,
+    "name": "Wayfarer Sunglasses",
+    "category": "Eyewear",
+    "Section": "Accessories",
+    "price": 320000,
+    "discountedPrice": 280000,
+    "image": "images/accessories/sunglasses-wayfarer.jpeg",
+    "images": {
+      "Black": "images/accessories/sunglasses-wayfarer-black.jpeg",
+      "Tortoise": "images/accessories/sunglasses-wayfarer-tortoise.jpeg"
+    },
+    "colors": ["Black", "Tortoise"],
+    "sizes": ["One Size"],
+    "description": "Iconic wayfarer sunglasses with polarized lenses. Perfect for streetwear looks.",
+    "material": "Acetate/Polycarbonate",
+    "rating": 4.7,
+    "reviews": 312,
+    "inStock": true,
+    "isNew": true
+  },
+  {
+    "id": 122,
+    "name": "Oversized Square Sunglasses",
+    "category": "Eyewear",
+    "Section": "Accessories",
+    "price": 380000,
+    "image": "images/accessories/sunglasses-square.jpeg",
+    "images": {
+      "Black": "images/accessories/sunglasses-square-black.jpeg",
+      "Brown": "images/accessories/sunglasses-square-brown.jpeg"
+    },
+    "colors": ["Black", "Brown"],
+    "sizes": ["One Size"],
+    "description": "Fashion-forward square sunglasses with mirrored lenses. 100% UV protection.",
+    "material": "Acetate/Polycarbonate",
+    "rating": 4.6,
+    "reviews": 287,
+    "inStock": true
+  },
+  {
+    "id": 123,
+    "name": "Round Metal Sunglasses",
+    "category": "Eyewear",
+    "Section": "Accessories",
+    "price": 400000,
+    "image": "images/accessories/sunglasses-round.jpeg",
+    "images": {
+      "Gold": "images/accessories/sunglasses-round-gold.jpeg",
+      "Silver": "images/accessories/sunglasses-round-silver.jpeg"
+    },
+    "colors": ["Gold", "Silver"],
+    "sizes": ["One Size"],
+    "description": "Vintage-inspired round sunglasses with thin metal frame. Polarized lenses.",
+    "material": "Metal/Glass",
+    "rating": 4.9,
+    "reviews": 354,
+    "inStock": true
+  },
+  {
+    "id": 124,
+    "name": "Sport Sunglasses",
+    "category": "Eyewear",
+    "Section": "Accessories",
+    "price": 450000,
+    "discountedPrice": 390000,
+    "image": "images/accessories/sunglasses-sport.jpeg",
+    "images": {
+      "Black": "images/accessories/sunglasses-sport-black.jpeg",
+      "Blue": "images/accessories/sunglasses-sport-blue.jpeg"
+    },
+    "colors": ["Black", "Blue"],
+    "sizes": ["One Size"],
+    "description": "Wraparound sport sunglasses with rubber grips. Impact-resistant lenses.",
+    "material": "TR90/Polycarbonate",
+    "rating": 4.7,
+    "reviews": 298,
+    "inStock": true
+  },
+  {
+    "id": 125,
+    "name": "Digital Sports Watch",
+    "category": "Watch",
+    "Section": "Accessories",
+    "price": 520000,
+    "image": "images/accessories/watch-digital.jpeg",
+    "images": {
+      "Black": "images/accessories/watch-digital-black.jpeg",
+      "Green": "images/accessories/watch-digital-green.jpeg"
+    },
+    "colors": ["Black", "Green"],
+    "sizes": ["One Size"],
+    "description": "Feature-packed digital watch with stopwatch, alarm and backlight. Water resistant 50m.",
+    "material": "Resin/Stainless Steel",
+    "rating": 4.6,
+    "reviews": 321,
+    "inStock": true
+  },
+  {
+    "id": 126,
+    "name": "Minimalist Leather Watch",
+    "category": "Watch",
+    "Section": "Accessories",
+    "price": 650000,
+    "discountedPrice": 580000,
+    "image": "images/accessories/watch-minimalist.jpeg",
+    "images": {
+      "Black": "images/accessories/watch-minimalist-black.jpeg",
+      "Brown": "images/accessories/watch-minimalist-brown.jpeg"
+    },
+    "colors": ["Black", "Brown"],
+    "sizes": ["One Size"],
+    "description": "Sleek watch with genuine leather strap and minimalist dial. Japanese quartz movement.",
+    "material": "Stainless Steel/Leather",
+    "rating": 4.8,
+    "reviews": 354,
+    "inStock": true,
+    "isNew": true
+  },
+  {
+    "id": 127,
+    "name": "Chronograph Watch",
+    "category": "Watch",
+    "Section": "Accessories",
+    "price": 750000,
+    "image": "images/accessories/watch-chrono.jpeg",
+    "images": {
+      "Silver": "images/accessories/watch-chrono-silver.jpeg",
+      "Black": "images/accessories/watch-chrono-black.jpeg"
+    },
+    "colors": ["Silver", "Black"],
+    "sizes": ["One Size"],
+    "description": "Professional chronograph with tachymeter bezel. Sapphire crystal glass.",
+    "material": "Stainless Steel",
+    "rating": 4.9,
+    "reviews": 387,
+    "inStock": true
+  },
+  {
+    "id": 128,
+    "name": "Smart Watch",
+    "category": "Watch",
+    "Section": "Accessories",
+    "price": 1200000,
+    "image": "images/accessories/watch-smart.jpeg",
+    "images": {
+      "Black": "images/accessories/watch-smart-black.jpeg",
+      "Silver": "images/accessories/watch-smart-silver.jpeg"
+    },
+    "colors": ["Black", "Silver"],
+    "sizes": ["One Size"],
+    "description": "Advanced smartwatch with fitness tracking and notifications. 7-day battery life.",
+    "material": "Aluminum/Silicone",
+    "rating": 4.7,
+    "reviews": 412,
+    "inStock": true
+  },
+  {
+    "id": 129,
+    "name": "Diver's Watch",
+    "category": "Watch",
+    "Section": "Accessories",
+    "price": 850000,
+    "discountedPrice": 780000,
+    "image": "images/accessories/watch-diver.jpeg",
+    "images": {
+      "Blue": "images/accessories/watch-diver-blue.jpeg",
+      "Black": "images/accessories/watch-diver-black.jpeg"
+    },
+    "colors": ["Blue", "Black"],
+    "sizes": ["One Size"],
+    "description": "Professional diver's watch with 200m water resistance. Unidirectional rotating bezel.",
+    "material": "Stainless Steel",
+    "rating": 4.8,
+    "reviews": 365,
+    "inStock": true
+  }
+]

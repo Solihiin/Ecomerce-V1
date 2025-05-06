@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Luxura - Premium Fashion Store</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="container">
+            <a href="index.html" class="logo">
+                <img src="images/logo.png" alt="Luxura">
+            </a>
+            
+            <div class="nav-links" id="navLinks">
+                <a href="index.html">Home</a>
+                <a href="#discount">Discount</a>
+                <a href="#new">New Product</a>
+                <a href="#products">Products</a>
+                <a href="page/product.html">Catalog</a>
+                <a href="#about">About</a>
+                <a href="#contact">Contact</a>
+            </div>
+            
+            <div class="nav-actions">
+                <div class="search-box" id="search-box">
+                    <i class="fas fa-search" id="searchIcon"></i>
+                    <input type="text" placeholder="Search..." id="searchInput" class="hidden">
+                </div>
+                
+                <a href="page/cart.html" class="cart-btn" id="cartBtn">
+                    <i class="fas fa-shopping-cart"></i>
+                    <span class="cart-count" id="cartCount">0</span>
+                </a>
+                
+                <button class="hamburger" id="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Slider -->
+    <section class="hero">
+        <div class="slider" id="slider">
+            <div class="slide active" style="background-image: url('images/slide1.jpg');">
+                <div class="slide-content">
+                    <h1>Summer Collection</h1>
+                    <p>Up to 50% Off on selected items</p>
+                    <a href="/page/product.html" class="btn">Shop Now</a>
+                </div>
+            </div>
+            <div class="slide" style="background-image: url('images/slide2.jpg');">
+                <div class="slide-content">
+                    <h1>New Arrivals</h1>
+                    <p>Discover our latest fashion trends</p>
+                    <a href="page/product.html" class="btn">Explore</a>
+                </div>
+            </div>
+            <div class="slide" style="background-image: url('images/slide3.jpg');">
+                <div class="slide-content">
+                    <h1>Luxury Essentials</h1>
+                    <p>Premium quality for everyday wear</p>
+                    <a href="page/roduct.html" class="btn">View Collection</a>
+                </div>
+            </div>
+        </div>
+        <div class="slider-dots" id="sliderDots">
+            <span class="dot active"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+        </div>
+    </section>
+
+    <!-- Discount Section -->
+    <section id="discount" class="section discount-section">
+        <div class="container">
+            <h2 class="section-title">Hot Discounts</h2>
+            <p class="section-subtitle">Limited time offers</p>
+            
+            <div class="product-grid" id="discountProducts">
+                <!-- Discount products will be inserted here by JavaScript -->
+            </div>
+            <div class="see-all">
+                <a href="product.html" class="btn">See All Products</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- New Products Section -->
+    <section id="new" class="section new-section">
+        <div class="container">
+            <h2 class="section-title">New Arrivals</h2>
+            <p class="section-subtitle">Fresh from our collection</p>
+            
+            <div class="product-grid" id="newProducts">
+                <!-- New products will be inserted here by JavaScript -->
+            </div>
+            <div class="see-all">
+                <a href="product.html" class="btn">See All Products</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Products by Category -->
+    <section id="products" class="section category-section">
+        <div class="container">
+            <h2 class="section-title">Our Collections</h2>
+            <p class="section-subtitle">Find your perfect style</p>
+            
+            <div class="category-tabs" id="categoryTabs">
+                <button class="tab-btn active" data-category="all">All</button>
+                <button class="tab-btn" data-category="Apparel">Apparel</button>
+                <button class="tab-btn" data-category="Footwear">Footwear</button>
+                <button class="tab-btn" data-category="Headwear">Headwear</button>
+                <button class="tab-btn" data-category="Accessories">Accessories</button>
+            </div>
+            
+            <div class="product-grid" id="categoryProducts">
+                <!-- Category products will be inserted here by JavaScript -->
+            </div>
+            
+            <div class="see-all">
+                <a href="product.html" class="btn">See All Products</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section about-section">
+        <div class="container">
+            <h2 class="section-title">About Luxura</h2>
+            <p class="section-subtitle">Our story and values</p>
+            
+            <div class="about-content">
+                <div class="about-text">
+                    <p>Welcome to Luxura, your premier destination for luxury fashion at affordable prices. Founded in 2023, we've been committed to providing high-quality clothing that combines style, comfort, and durability.</p>
+                    <p>Our mission is to make luxury fashion accessible to everyone without compromising on quality. Each piece in our collection is carefully selected and designed to meet the highest standards.</p>
+                </div>
+                
+                <div class="features-grid">
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-pencil-ruler"></i>
+                        </div>
+                        <h3>Unique Design</h3>
+                        <p>Our designs are crafted by top fashion designers to ensure you stand out from the crowd.</p>
+                    </div>
+                    
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-award"></i>
+                        </div>
+                        <h3>Premium Quality</h3>
+                        <p>We use only the finest materials to guarantee comfort and durability in every piece.</p>
+                    </div>
+                    
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-truck"></i>
+                        </div>
+                        <h3>Fast Shipping</h3>
+                        <p>Enjoy quick and reliable delivery services across Indonesia and international destinations.</p>
+                    </div>
+                    
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-tags"></i>
+                        </div>
+                        <h3>Affordable Prices</h3>
+                        <p>Luxury doesn't have to break the bank - we offer competitive pricing for premium quality.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section contact-section">
+        <div class="container">
+            <h2 class="section-title">Contact Us</h2>
+            <p class="section-subtitle">We'd love to hear from you</p>
+            
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="info-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <p>Jl. Fashion Street No. 123, Jakarta, Indonesia</p>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-phone"></i>
+                        <p>+62 123 4567 890</p>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-envelope"></i>
+                        <p>info@luxurafashion.com</p>
+                    </div>
+                    
+                    <div class="social-media">
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-tiktok"></i></a>
+                        <a href="#"><i class="fab fa-whatsapp"></i></a>
+                    </div>
+                </div>
+                
+                <div class="contact-map">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.521260322283!2d106.81956135063948!3d-6.194741395493371!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f5390917b759%3A0x6b45e67356080477!2sMonumen%20Nasional!5e0!3m2!1sen!2sid!4v1623412345678!5m2!1sen!2sid" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Product Modal -->
+    <div class="product-modal" id="productModal">
+        <div class="modal-content">
+            <button class="close-modal" id="closeModal">
+                <i class="fas fa-times"></i>
+            </button>
+            
+            <div class="modal-body" id="modalBody">
+                <!-- Modal content will be inserted here by JavaScript -->
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <img src="images/logo.png" alt="Luxura" class="footer-logo">
+                    <p>Premium fashion for everyday luxury. Quality materials, unique designs, affordable prices.</p>
+                </div>
+                
+                <div class="footer-col">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="#discount">Discount</a></li>
+                        <li><a href="#new">New Products</a></li>
+                        <li><a href="#products">Products</a></li>
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-col">
+                    <h3>Categories</h3>
+                    <ul>
+                        <li><a href="product.html?category=hodie">Hodie</a></li>
+                        <li><a href="product.html?category=crawneck">Crawneck</a></li>
+                        <li><a href="product.html?category=t-shirt">T-Shirt</a></li>
+                        <li><a href="product.html?category=long-shirt">Long Shirt</a></li>
+                        <li><a href="product.html?category=long-pants">Long Pants</a></li>
+                        <li><a href="product.html?category=shoes">Shoes</a></li>
+                        <li><a href="product.html?category=hat">Hat</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-col">
+                    <h3>Newsletter</h3>
+                    <p>Subscribe to get updates on new arrivals and special offers.</p>
+                    <form class="newsletter-form" id="newsletterForm">
+                        <input type="email" placeholder="Your email address" required>
+                        <button type="submit">Subscribe</button>
+                    </form>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2023 Luxura Fashion. All Rights Reserved.</p>
+                <div class="payment-methods">
+                    <i class="fab fa-cc-visa"></i>
+                    <i class="fab fa-cc-mastercard"></i>
+                    <i class="fab fa-cc-paypal"></i>
+                    <i class="fab fa-cc-discover"></i>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript Files -->
+    <script src="js/script.js"></script> <!-- UI interactions -->
+</body>
+</html>

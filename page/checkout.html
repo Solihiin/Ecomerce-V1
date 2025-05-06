@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Checkout - Luxura Fashion</title>
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="/css/checkout.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar">
+      <div class="container">
+        <a href="/index.html" class="logo">
+          <img src="/images/logo.png" alt="Luxura" />
+        </a>
+
+        <div class="nav-links" id="navLinks">
+          <a href="/index.html">Home</a>
+          <a href="/index.html#discount">Discount</a>
+          <a href="/index.html#new">New Product</a>
+          <a href="/index.html#products">Products</a>
+          <a href="/index.html#about">About</a>
+          <a href="/index.html#contact">Contact</a>
+        </div>
+        <div class="nav-actions">
+          <a href="cart.html" class="back-btn" id="backBtn">
+            <i class="fa-solid fa-arrow-left"></i>
+            <span class="cart-count" id="cartCount">0</span>
+          </a>
+
+          <button class="hamburger" id="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+          </button>
+        </div>
+      </div>
+    </nav>
+
+    <section class="checkout">
+      <h2>Checkout Now</h2>
+      <div class="container">
+        <!-- Address Section -->
+        <div class="checkout-section">
+          <h3><i class="fas fa-map-marker-alt"></i> Delivery Address</h3>
+          <div class="address-list" id="addressList">
+            <!-- Addresses will be loaded here -->
+          </div>
+          <button class="btn add-address-btn" id="addAddressBtn">Add New Address</button>
+        </div>
+
+        <!-- Shipping Method -->
+        <div class="checkout-section">
+          <h3><i class="fas fa-truck"></i> Shipping Method</h3>
+          <div class="shipping-options" id="shippingOptions">
+            <div class="shipping-option">
+              <input type="radio" name="shipping" id="standard" checked>
+              <label for="standard">
+                <span>Standard Delivery</span>
+                <span>3-5 business days</span>
+                <span>IDR 15,000</span>
+              </label>
+            </div>
+            <div class="shipping-option">
+              <input type="radio" name="shipping" id="express">
+              <label for="express">
+                <span>Express Delivery</span>
+                <span>1-2 business days</span>
+                <span>IDR 30,000</span>
+              </label>
+            </div>
+            <div class="shipping-option">
+              <input type="radio" name="shipping" id="same-day">
+              <label for="same-day">
+                <span>Same Day Delivery</span>
+                <span>Within 24 hours</span>
+                <span>IDR 50,000</span>
+              </label>
+            </div>
+          </div>
+        </div>
+
+        <!-- Products Section -->
+        <div class="checkout-section">
+          <h3><i class="fas fa-shopping-bag"></i> Your Products</h3>
+          <div class="products-list" id="productsList">
+            <!-- Products from cart will be loaded here -->
+          </div>
+        </div>
+
+        <!-- Voucher Section -->
+        <div class="checkout-section">
+          <h3><i class="fa-solid fa-user-secret"></i>Secret Code</h3>
+          <div class="code-applied" id="codeApplied">
+            <!-- Applied voucher will be shown here -->
+          </div>
+          <div class="secret-input">
+            <input type="text" id="secretCode" placeholder="Enter Secret code">
+            <button class="btn apply-code" id="applySecretBtn">Apply</button>
+          </div>
+          <div class="code-notification" id="codeNotification"></div>
+
+          
+          <h3><i class="fas fa-tag"></i> Voucher</h3>
+          <div class="voucher-applied" id="voucherApplied">
+          </div>
+          <div class="voucher-select">
+            <select name="voucher" id="voucherSelect">
+                <option value="" disabled selected>Choose your voucher</option>
+                option will bi add from cart in js
+            </select>
+            <button class="btn apply-voucher" id="applyVoucherBtn">Apply</button>
+          </div>
+          <div class="voucher-notification" id="voucherNotification"></div>
+        </div>
+
+        <!-- Payment Method -->
+        <div class="checkout-section">
+          <h3><i class="fas fa-credit-card"></i> Payment Method</h3>
+          <div class="payment-options">
+            <div class="payment-option">
+              <input type="radio" name="payment" id="credit-card" checked>
+              <label for="credit-card">
+                <i class="fab fa-cc-visa"></i>
+                <span>Credit Card</span>
+              </label>
+            </div>
+            <div class="payment-option">
+              <input type="radio" name="payment" id="bank-transfer">
+              <label for="bank-transfer">
+                <i class="fas fa-university"></i>
+                <span>Bank Transfer</span>
+              </label>
+            </div>
+            <div class="payment-option">
+              <input type="radio" name="payment" id="e-wallet">
+              <label for="e-wallet">
+                <i class="fas fa-wallet"></i>
+                <span>E-Wallet</span>
+              </label>
+            </div>
+          </div>
+          <button class="btn more-options" id="moreOptionsBtn">Show More Options</button>
+          <div class="more-payment-options" id="morePaymentOptions" style="display: none;">
+            <div class="payment-option">
+              <input type="radio" name="payment" id="paypal">
+              <label for="paypal">
+                <i class="fab fa-paypal"></i>
+                <span>PayPal</span>
+              </label>
+            </div>
+            <div class="payment-option">
+              <input type="radio" name="payment" id="cod">
+              <label for="cod">
+                <i class="fas fa-money-bill-wave"></i>
+                <span>Cash on Delivery</span>
+              </label>
+            </div>
+          </div>
+        </div>
+        <!-- Checkout Summary -->
+      <div class="checkout-summary">
+        <h3>Order Summary</h3>
+        <div class="summary-row">
+          <span>Subtotal</span>
+          <span id="subtotal">IDR 0</span>
+        </div>
+        <div class="summary-row">
+          <span>Shipping</span>
+          <span id="shipping">IDR 0</span>
+        </div>
+        <div class="summary-row">
+          <span>Product Discount</span>
+          <span id="productDiscount">-IDR 0</span>
+        </div>
+        <div class="summary-row">
+          <span>Voucher Discount</span>
+          <span id="voucherDiscount">-IDR 0</span>
+        </div>
+        <div class="summary-row total">
+          <span>Total</span>
+          <span id="total">IDR 0</span>
+        </div>
+        <button class="btn checkout-btn" id="checkoutBtn">Complete Order</button>
+      </div>
+      </div>
+
+      
+    </section>
+
+    <!-- Address Modal -->
+    <div class="modal" id="addressModal">
+      <div class="modal-content">
+        <span class="close-modal" id="closeModal">&times;</span>
+        <h3>Add New Address</h3>
+        <form id="addressForm">
+          <div class="form-group">
+            <label for="recipientName">Recipient Name</label>
+            <input type="text" id="recipientName" required>
+          </div>
+          <div class="form-group">
+            <label for="phoneNumber">Phone Number</label>
+            <input type="tel" id="phoneNumber" required>
+          </div>
+          <div class="form-group">
+            <label for="province">Province</label>
+            <select id="province" required>
+              <option value="">Select Province</option>
+              <option value="DKI Jakarta">DKI Jakarta</option>
+              <option value="West Java">West Java</option>
+              <option value="Central Java">Central Java</option>
+              <option value="East Java">East Java</option>
+              <option value="Banten">Banten</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="city">City</label>
+            <select id="city" required>
+              <option value="">Select City</option>
+              <option value="Jakarta Pusat">Jakarta Pusat</option>
+              <option value="Jakarta Selatan">Jakarta Selatan</option>
+              <option value="Jakarta Barat">Jakarta Barat</option>
+              <option value="Jakarta Timur">Jakarta Timur</option>
+              <option value="Jakarta Utara">Jakarta Utara</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="postalCode">Postal Code</label>
+            <input type="text" id="postalCode" required>
+          </div>
+          <div class="form-group">
+            <label for="fullAddress">Full Address</label>
+            <textarea id="fullAddress" rows="3" required></textarea>
+          </div>
+          <div class="form-group">
+            <input type="checkbox" id="defaultAddress">
+            <label for="defaultAddress">Set as default address</label>
+          </div>
+          <button type="submit" class="btn save-address-btn">Save Address</button>
+        </form>
+      </div>
+    </div>
+
+    <!-- Order Confirmation Modal -->
+    <div class="modal" id="confirmationModal">
+      <div class="modal-content">
+        <div class="order-success">
+          <i class="fas fa-check-circle"></i>
+          <h3>Order Placed Successfully!</h3>
+          <p>Thank you for your purchase. Your order has been received and is being processed.</p>
+          <p>Order ID: <span id="orderId">LX-2023-456789</span></p>
+          <div class="order-summary">
+            <div class="summary-row">
+              <span>Delivery to:</span>
+              <span id="deliveryAddress">John Doe, Jakarta Pusat</span>
+            </div>
+            <div class="summary-row">
+              <span>Payment Method:</span>
+              <span id="paymentMethod">Credit Card</span>
+            </div>
+            <div class="summary-row total">
+              <span>Total Paid:</span>
+              <span id="totalPaid">IDR 450,000</span>
+            </div>
+          </div>
+          <button class="btn continue-shopping" id="continueShoppingBtn">Continue Shopping</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-grid">
+          <div class="footer-col">
+            <img src="/images/logo.png" alt="Luxura" class="footer-logo" />
+            <p>
+              Premium fashion for everyday luxury. Quality materials, unique
+              designs, affordable prices.
+            </p>
+          </div>
+
+          <div class="footer-col">
+            <h3>Quick Links</h3>
+            <ul>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="index.html#discount">Discount</a></li>
+              <li><a href="index.html#new">New Products</a></li>
+              <li><a href="index.html#products">Products</a></li>
+              <li><a href="index.html#about">About Us</a></li>
+              <li><a href="index.html#contact">Contact</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-col">
+            <h3>Customer Service</h3>
+            <ul>
+              <li><a href="#">Shipping Policy</a></li>
+              <li><a href="#">Return Policy</a></li>
+              <li><a href="#">Size Guide</a></li>
+              <li><a href="#">FAQs</a></li>
+              <li><a href="#">Track Order</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-col">
+            <h3>Contact Info</h3>
+            <ul>
+              <li><i class="fas fa-map-marker-alt"></i> Jakarta, Indonesia</li>
+              <li><i class="fas fa-phone"></i> +62 123 4567 890</li>
+              <li><i class="fas fa-envelope"></i> info@luxurafashion.com</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="footer-bottom">
+          <p>&copy; 2023 Luxura Fashion. All Rights Reserved.</p>
+          <div class="payment-methods">
+            <i class="fab fa-cc-visa"></i>
+            <i class="fab fa-cc-mastercard"></i>
+            <i class="fab fa-cc-paypal"></i>
+            <i class="fab fa-cc-discover"></i>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- JavaScript Files -->
+    <script src="/js/script.js"></script>
+    <script src="/js/checkout.js"></script>
+  </body>
+</html>

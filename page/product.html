@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Luxura - Premium Fashion Store</title>
+    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="container">
+        <a href="/index.html" class="logo">
+          <img src="../images/logo.png" alt="Luxura" />
+        </a>
+
+        <div class="nav-links" id="navLinks">
+          <a href="/index.html">Back To Home</a>
+          <a href="#apparel">Apparel</a>
+          <a href="#footwear">Footwear</a>
+          <a href="#headwear">Headwear</a>
+          <a href="#accessories">Accesories</a>
+        </div>
+
+        <div class="nav-actions">
+          <div class="search-box" id="search-box">
+            <i class="fas fa-search" id="searchIcon"></i>
+            <input
+              type="text"
+              placeholder="Search..."
+              id="searchInput"
+              class="hidden"
+            />
+          </div>
+
+          <a href="cart.html" class="cart-btn" id="cartBtn">
+            <i class="fas fa-shopping-cart"></i>
+            <span class="cart-count" id="cartCount">0</span>
+          </a>
+
+          <button class="hamburger" id="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+          </button>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero Slider -->
+    <section class="hero">
+      <div class="slider" id="slider">
+        <div
+          class="slide active"
+          style="background-image: url('/images/freeshipping.jpeg')"
+        >
+          <div class="slide-content">
+            <h1>Free Shipping</h1>
+            <p>If you spend more than 700k</p>
+            <a href="product.html" class="btn">Shop Now</a>
+          </div>
+        </div>
+        <div class="slide" style="background-image: url('/images/voucher.jpeg')">
+          <div class="slide-content">
+            <h1>Vouchers available</h1>
+            <p>There are many vouchers that you can use</p>
+            <a href="product.html" class="btn">Explore</a>
+          </div>
+        </div>
+        <div
+          class="slide"
+          style="background-image: url('/images/discount.jpeg')"
+        >
+          <div class="slide-content">
+            <h1>Up to 50% discount</h1>
+            <p>Huge discounts on some products</p>
+            <a href="product.html" class="btn">View Collection</a>
+          </div>
+        </div>
+      </div>
+      <div class="slider-dots" id="sliderDots">
+        <span class="dot active"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+      </div>
+    </section>
+
+    <!-- Discount Section -->
+    <section id="discount" class="section discount-section">
+      <div class="container">
+        <h2 class="section-title">Hot Discounts</h2>
+        <p class="section-subtitle">Limited time offers</p>
+
+        <div class="product-grid" id="discountProducts">
+          <!-- Discount products will be inserted here by JavaScript -->
+        </div>
+      </div>
+    </section>
+
+    <!-- New Products Section -->
+    <section id="new" class="section new-section">
+      <div class="container">
+        <h2 class="section-title">New Arrivals</h2>
+        <p class="section-subtitle">Fresh from our collection</p>
+
+        <div class="product-grid" id="newProducts">
+          <!-- New products will be inserted here by JavaScript -->
+        </div>
+      </div>
+    </section>
+
+    <section id="apparel" class="section category-section">
+      <div class="container">
+        <h2 class="section-title">Apparel Collections</h2>
+        <p class="section-subtitle">Find your perfect style</p>
+
+        <div class="category-tabs" id="categoryApparel">
+          <button class="tab-btn active" data-category="all">All</button>
+          <button class="tab-btn" data-category="Tops">Tops</button>
+          <button class="tab-btn" data-category="Bottoms">Bottoms</button>
+          <button class="tab-btn" data-category="Outerwear">Outerwear</button>
+          <button class="tab-btn" data-category="Sets">Sets</button>
+          <button class="tab-btn" data-category="Collection">
+            Collections
+          </button>
+        </div>
+
+        <div class="product-grid" id="apparelProducts">
+          <!-- Category products will be inserted here by JavaScript -->
+        </div>
+        <div class="pagination-container"></div>
+      </div>
+    </section>
+
+    <section id="footwear" class="section category-section">
+      <div class="container">
+        <h2 class="section-title">Footwear Collections</h2>
+        <p class="section-subtitle">Find your perfect footwear</p>
+
+        <div class="category-tabs" id="categoryFootwear">
+          <button class="tab-btn active" data-category="all">All</button>
+          <button class="tab-btn" data-category="Sneakers">Sneakers</button>
+          <button class="tab-btn" data-category="Boots">Boots</button>
+          <button class="tab-btn" data-category="Sandals & Slidest">
+            Sandals & Slidest
+          </button>
+          <button class="tab-btn" data-category="Dress Shoes">
+            Dress Shoes
+          </button>
+          <button class="tab-btn" data-category="Casual Shoes">
+            Casual Shoes
+          </button>
+          <button class="tab-btn" data-category="Limited">Limited</button>
+        </div>
+
+        <div class="product-grid" id="footwearProducts">
+          <!-- Category products will be inserted here by JavaScript -->
+        </div>
+        <div class="pagination-container"></div>
+      </div>
+    </section>
+
+    <section id="headwear" class="section category-section">
+      <div class="container">
+        <h2 class="section-title">Headwear Collections</h2>
+        <p class="section-subtitle">Find your perfect Headwear</p>
+
+        <div class="category-tabs" id="categoryHeadwear">
+          <button class="tab-btn active" data-category="all">All</button>
+          <button class="tab-btn" data-category="Cap">Cap</button>
+          <button class="tab-btn" data-category="Hat">Hat</button>
+          <button class="tab-btn" data-category="Beanies">Beanies</button>
+          <button class="tab-btn" data-category="Bandanas & Wraps">
+            Bandanas & Wraps
+          </button>
+          <button class="tab-btn" data-category="Statement Pieces">
+            Statement Pieces
+          </button>
+        </div>
+
+        <div class="product-grid" id="headwearProducts">
+          <!-- Category products will be inserted here by JavaScript -->
+        </div>
+        <div class="pagination-container"></div>
+      </div>
+    </section>
+
+    <section id="accessories" class="section category-section">
+      <div class="container">
+        <h2 class="section-title">Accesories Collections</h2>
+        <p class="section-subtitle">Find your perfect Accesories</p>
+
+        <div class="category-tabs" id="categoryAccessoris">
+          <button class="tab-btn active" data-category="all">All</button>
+          <button class="tab-btn" data-category="Bags">Bags</button>
+          <button class="tab-btn" data-category="Eyewear">Eyewear</button>
+          <button class="tab-btn" data-category="Jewelry">Jewelry</button>
+          <button class="tab-btn" data-category="Belts">Belts</button>
+          <button class="tab-btn" data-category="Socks">Socks</button>
+          <button class="tab-btn" data-category="Gloves">Gloves</button>
+          <button class="tab-btn" data-category="Watch">Watch</button>
+          <button class="tab-btn" data-category="Lifestyle">Lifestyle</button>
+        </div>
+
+        <div class="product-grid" id="accessoriesProducts">
+          <!-- Category products will be inserted here by JavaScript -->
+        </div>
+        <div class="pagination-container"></div>
+      </div>
+    </section>
+
+    <!-- Product Modal -->
+    <div class="product-modal" id="productModal">
+      <div class="modal-content">
+        <button class="close-modal" id="closeModal">
+          <i class="fas fa-times"></i>
+        </button>
+
+        <div class="modal-body" id="modalBody">
+          <!-- Modal content will be inserted here by JavaScript -->
+        </div>
+      </div>
+    </div>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-grid">
+          <div class="footer-col">
+            <img src="/images/logo.png" alt="Luxura" class="footer-logo" />
+            <p>
+              Premium fashion for everyday luxury. Quality materials, unique
+              designs, affordable prices.
+            </p>
+          </div>
+
+          <div class="footer-col">
+            <h3>Quick Links</h3>
+            <ul>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="#discount">Discount</a></li>
+              <li><a href="#new">New Products</a></li>
+              <li><a href="#products">Products</a></li>
+              <li><a href="#about">About Us</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-col">
+            <h3>Categories</h3>
+            <ul>
+              <li><a href="product.html?category=hodie">Hodie</a></li>
+              <li><a href="product.html?category=crawneck">Crawneck</a></li>
+              <li><a href="product.html?category=t-shirt">T-Shirt</a></li>
+              <li><a href="product.html?category=long-shirt">Long Shirt</a></li>
+              <li><a href="product.html?category=long-pants">Long Pants</a></li>
+              <li><a href="product.html?category=shoes">Shoes</a></li>
+              <li><a href="product.html?category=hat">Hat</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-col">
+            <h3>Newsletter</h3>
+            <p>Subscribe to get updates on new arrivals and special offers.</p>
+            <form class="newsletter-form" id="newsletterForm">
+              <input type="email" placeholder="Your email address" required />
+              <button type="submit">Subscribe</button>
+            </form>
+          </div>
+        </div>
+
+        <div class="footer-bottom">
+          <p>&copy; 2023 Luxura Fashion. All Rights Reserved.</p>
+          <div class="payment-methods">
+            <i class="fab fa-cc-visa"></i>
+            <i class="fab fa-cc-mastercard"></i>
+            <i class="fab fa-cc-paypal"></i>
+            <i class="fab fa-cc-discover"></i>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- JavaScript Files -->
+    <script src="/js/product.js"></script>
+  </body>
+</html>
